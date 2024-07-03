@@ -24,34 +24,6 @@
 
 This project is a robust e-commerce website with an auction system implemented on the AWS Cloud Platform. The project is designed to support diverse auction mechanisms, including Dutch auctions. It integrates stringent security measures using DevSecOps principles and leverages various AWS services such as S3, IAM, KMS, and WAF.
 
-## Project Structure
-
-```
-ecommerce-auction
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── App.js
-│   │   └── index.js
-├── backend
-│   ├── src
-│   │   ├── controllers
-│   │   ├── models
-│   │   ├── routes
-│   │   ├── utils
-│   │   ├── app.js
-│   │   └── server.js
-├── infrastructure
-│   ├── cloudformation.yaml
-│   ├── security-config.json
-│   └── deploy.sh
-├── package.json
-├── README.md
-└── .gitignore
-```
-
 ## Frontend
 
 The frontend is built using React and React Router for navigation.
